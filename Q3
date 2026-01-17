@@ -1,0 +1,6 @@
+
+index: int = 4
+
+while index <= 40:
+        print(index)
+        index += 4
