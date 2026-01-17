@@ -1,0 +1,7 @@
+
+pizza: int = 4
+triangle: int = 8
+people: int = 5
+each_one: int = (pizza * triangle) // people
+leftover: int = (pizza * triangle) % people
+print("each one will get",each_one, "slices","there will be", leftover, "left")
