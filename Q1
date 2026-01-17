@@ -1,0 +1,11 @@
+num: int = int(input())
+if num == 0:
+    print("the list is empty")
+else:
+    min = num
+    while num != 0:
+        if num < min:
+            min = num
+
+        num = int(input())
+print(min)
